@@ -1,0 +1,4 @@
+requests==2.26.0
+mysql-connector-python==8.0.27
+python-dotenv==0.19.1
+schedule==1.2.0
