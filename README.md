@@ -9,7 +9,6 @@ Before running the application, ensure you have the following:
 - Python 3.8 or higher installed.
 - Docker and Docker Compose installed.
 - CoinMarketCap API key (sign up at https://coinmarketcap.com/api/).
-- MySQL database credentials.
 
 ## Setup
 
