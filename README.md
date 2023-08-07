@@ -44,3 +44,7 @@ Before running the application, ensure you have the following:
 * The crypto_database.py module defines the CryptoDatabase class for interacting with the MySQL database.
 * The main.py script combines the API communication, data processing, and database interactions.
 * The application is scheduled to run the data fetching process every minute using the schedule library.
+
+## Logs
+
+Logs are stored in the app.log file in the logs directory. This file provides information about the data fetching process, database interactions, and any errors encountered.
