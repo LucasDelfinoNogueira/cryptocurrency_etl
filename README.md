@@ -22,7 +22,7 @@ Before running the application, ensure you have the following:
 
 3. Create a .env file in the project directory and add your API key and database credentials:
 
-    ```bash
+    ```
     API_KEY=your_actual_api_key_here
     ENDPOINT=sandbox-api.coinmarketcap.com
     CRYPTO_LIST=BTC,ETH,LTC,XRP
@@ -31,6 +31,13 @@ Before running the application, ensure you have the following:
     DB_PASSWORD=your_db_password
     DB_NAME=crypto_db
     DB_ROOT_PASSWORD=your_db_root_password
+    ```
+
+    For the purpose os this project, it was used the sandbox endpoint and api key provided by CoinMarketCap. This sandbox environment is used for testing purpose, since it has mock data. If you want to use the mock data, keep the API_KEY and ENDPOINT variables in .env file the way they are:
+
+```
+
+```
 
 4. Build and start the Docker containers:
 
